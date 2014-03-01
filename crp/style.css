@@ -1,0 +1,4 @@
+p { font-weight: bold }
+span { color: red }
+p span { display: none }
+img { float: right }

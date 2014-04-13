@@ -1,0 +1,3 @@
+body { width: 100%; background-color: gray }
+ div { width: 50%;  background-color: green }
+    p { width: 50%;  background-color: red }

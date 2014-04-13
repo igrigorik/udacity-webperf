@@ -5,6 +5,8 @@ class Srv < Goliath::API
     file = env['REQUEST_PATH'].split('/')[1]
     # type = 'text/html'
 
+    EM::Synchrony.sleep(0.1)
+
     type = case file
     when /\.html$/
       EM::Synchrony.sleep(0.1)
